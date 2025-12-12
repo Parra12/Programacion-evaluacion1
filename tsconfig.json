@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    // Define la versión de JavaScript a la que se compilará
+    "target": "ES6",
+    // Usa el sistema de módulos CommonJS para Node.js
+    "module": "commonjs",
+    // Carpeta donde se guardará el JS compilado
+    "outDir": "./dist",
+    // Carpeta donde están los archivos TS
+    "rootDir": "./src",
+    // Habilita chequeos estrictos para mejor calidad de código
+    "strict": true,
+    // Permite interoperabilidad entre módulos
+    "esModuleInterop": true,
+    // Evita errores con archivos no TS
+    "skipLibCheck": true
+  }
+}
